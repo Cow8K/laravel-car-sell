@@ -1,7 +1,4 @@
-@extends('layouts.base', ['cssClass' => 'page-login'])
-@section('title', 'Login')
-
-@section('subContent')
+<x-base-layout bodyClass='page-login' title="Login">
     <main>
         <div class="container-small page-login">
             <div class="flex" style="gap: 5rem">
@@ -54,4 +51,4 @@
             </div>
         </div>
     </main>
-@endsection
+</x-base-layout>
